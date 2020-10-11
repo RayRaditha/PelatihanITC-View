@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#7BCCC6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:textSize="50sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/logo_itc"/>
+
+        <TextView
+            android:id="@+id/tx_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Full Name :"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DEF2F0"
+            android:layout_marginLeft="10dp"
+            android:hint="(enter your full name here)"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/tx_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Email Address :"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DEF2F0"
+            android:layout_marginLeft="10dp"
+            android:hint="(enter your email address here)"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:id="@+id/tx_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Password :"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DEF2F0"
+            android:layout_marginLeft="10dp"
+            android:hint="(enter your password here)"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:id="@+id/tx_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="City :"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DEF2F0"
+            android:layout_marginLeft="10dp"
+            android:hint="(enter your city here)"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/tx_major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Major :"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_major"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DEF2F0"
+            android:layout_marginLeft="10dp"
+            android:hint="(enter your major here)"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/tx_motiva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Motivation :"
+            android:layout_marginLeft="10dp"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_motiva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DEF2F0"
+            android:layout_marginLeft="10dp"
+            android:hint="(enter your motivation here)"
+            android:inputType="text"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="90dp"
+                android:text="CANCEL"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/btn_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="SIGN UP!"
+                android:textColor="#FFFFFF"/>
+
+        </RadioGroup>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
